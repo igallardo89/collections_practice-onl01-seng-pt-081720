@@ -50,12 +50,9 @@ end
 
 def add_s(array)
   array.each do |x|
-    when x == 2 
-      return
-      elsif 
-      nu = []
-      array. each do |x| 
-        + "s"
+  if x == 2 
+    puts 2 
+  elsif x + "s"
     end
   end
     
