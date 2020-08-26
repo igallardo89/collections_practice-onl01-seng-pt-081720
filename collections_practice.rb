@@ -49,10 +49,12 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array.each do |x|
-  if x == 2 
-    puts 2 
-  elsif x + "s"
+  array.map do |x|
+    if array[1] == x
+      x
+    else
+      x + "s"
     end
   end
-    
+end
+  
