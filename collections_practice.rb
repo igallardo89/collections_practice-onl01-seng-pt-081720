@@ -48,3 +48,11 @@ def sum_array(array)
   i
 end 
 
+def add_s(array)
+  array.each do |x|
+    if x == 2 
+      return 2 
+      elsif x + "s"
+    end
+  end
+    
